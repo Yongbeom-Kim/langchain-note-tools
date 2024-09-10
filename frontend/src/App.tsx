@@ -1,6 +1,6 @@
-import "./App.css";
-import { ThemeProvider } from "@/components/theme-provider";
-import { ModeToggle } from "./components/mode-toggle";
+import './App.css'
+import { ThemeProvider } from '@/components/theme-provider'
+import { ModeToggle } from './components/mode-toggle'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <ModeToggle />
     </ThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App
